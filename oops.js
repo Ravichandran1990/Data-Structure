@@ -17,17 +17,26 @@
 // console.log(person1.getDetails_access());
 
 
-function Cat(name) {
+// function Cat(name) {
     
-    return function() {
-        return name + 'Testing'
-    };
+//     return function() {
+//         return name + 'Testing'
+//     };
 
-}
+// }
 
-function Animal(name) {
-    const cat = new Cat(name);
-    console.log(cat());
+// function Animal(name) {
+//     const cat = new Cat(name);
+//     console.log(cat());
     
-}
-const animalObj = new Animal("Tiger");
+// }
+// const animalObj = new Animal("Tiger");
+const name = "Vivek";
+let person = name;
+var person_ = 123;
+var demo1;
+
+console.log(isNaN(name));
+console.log(isNaN(person));
+console.log(isNaN(person_));
+console.log(isNaN(demo1));
