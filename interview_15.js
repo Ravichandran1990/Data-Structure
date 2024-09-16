@@ -40,3 +40,15 @@ let obj_1 = JSON.parse(JSON.stringify(obj));
 obj_1.c.d = 5;
 console.log(obj);
 console.log(obj_1);
+
+function Outer() {  
+    this.value = 2;   
+    setTimeout(() => {
+        console.log(this.value); 
+    }, 1000);
+}
+ new Outer();
+ 
+ //console.log([] == ![]);
+ 
+//console.log([] - []);
